@@ -1,6 +1,6 @@
 
 # Creating Redshift Cluster using the AWS python SDK 
-## Author: Shravan Kuchkula
+## Author: Venkata Sai Varma Mandapati
 
 ## Introduction
 In this post, I will show how we can use AWS python SDK `boto3` to create AWS resources (as opposed to creating from console by clicking through many screens) and launch an AWS Redshift Cluster. Later, we will look into reading data from S3 and storing them into Redshift cluster tables and perform some queries. Finally, we will programatically destroy all the resources that we created so that we don't incur any unnecessary costs.
